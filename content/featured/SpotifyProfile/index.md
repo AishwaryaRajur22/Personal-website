@@ -1,9 +1,10 @@
 ---
 date: '2'
+cover: './IMG_0996.JPG'
 title: 'Visvesaraya Technological University, India'
 github: ''
 range: 'Aug 2017 - Aug 2021'
-
+cta: 'https://gat.ac.in/'
 tech:
   - Operating Systems
   - Cryptography

@@ -3,6 +3,8 @@ date: '1'
 title: 'University of California, Santa Cruz'
 github: ''
 range: 'Sep 2022 - Present'
+cover: './IMG_3747.png'
+cta: 'https://www.ucsc.edu/'
 tech:
   - DSA
   - Computer Networks

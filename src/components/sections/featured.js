@@ -64,7 +64,7 @@ const StyledProject = styled.li`
       }
 
       li {
-        margin: 0 0 5px 20px;
+        margin: 0 0 5px 10px;
 
         @media (max-width: 768px) {
           margin: 0 10px 5px 0;
@@ -125,7 +125,7 @@ const StyledProject = styled.li`
 
   .project-title {
     color: var(--lightest-slate);
-    font-size: clamp(24px, 5vw, 28px);
+    font-size: clamp(20px, 5vw, 22px);
 
     @media (min-width: 768px) {
       margin: 0 0 20px;
@@ -283,7 +283,7 @@ const StyledProject = styled.li`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--pink);
+        background-color: var(--navy);
         mix-blend-mode: screen;
       }
     }
@@ -321,8 +321,15 @@ const Featured = () => {
           node {
             frontmatter {
               title
+              cover {
+                childImageSharp {
+                  gatsbyImageData(width: 700, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+                }
+              }
               tech
               github
+              external
+              cta
               range
             }
             html
@@ -356,16 +363,17 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { title, tech, github, range} = frontmatter;
+            const { external, title, tech, github, cover, cta, range} = frontmatter;
+            const image = getImage(cover);
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <div className="project-content">
                   <div>
-                    {/* <p className="project-overline">Project</p> */}
+                    {/* <p className="project-overline">Featured Project</p> */}
 
                     <h3 className="project-title">
-                      {title}
+                      <a href={external}>{title}</a>
                     </h3>
 
                     <p className="range">{range}</p>
@@ -384,15 +392,30 @@ const Featured = () => {
                     )}
 
                     <div className="project-links">
+                      {cta && (
+                        <a href={cta} aria-label="Course Link" className="cta">
+                          Learn More
+                        </a>
+                      )}
                       {github && (
                         <a href={github} aria-label="GitHub Link">
                           <Icon name="GitHub" />
+                        </a>
+                      )}
+                      {external && !cta && (
+                        <a href={external} aria-label="External Link" className="external">
+                          <Icon name="External" />
                         </a>
                       )}
                     </div>
                   </div>
                 </div>
 
+                <div className="project-image">
+                  <a href={external ? external : github ? github : '#'}>
+                    <GatsbyImage image={image} alt={title} className="img" />
+                  </a>
+                </div>
               </StyledProject>
             );
           })}
