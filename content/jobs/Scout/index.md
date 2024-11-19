@@ -1,16 +1,15 @@
 ---
 date: '09-01-2022'
-title: 'Graduate Teaching Assistant'
-company: 'UC Santa Cruz'
+title: 'UC Santa Cruz'
+company: 'Graduate Teaching Assistant'
 location: 'Santa Cruz'
-range: 'Sep 2022 - Present'
+range: 'Sep 2022 - Jul 2024'
 url: 'https://www.ucsc.edu/'
 ---
 
-- Supervised students on how to work with stakeholders to effectively identify the requirements to create structural and behavioral models of the system using UML Diagrams and also, taught a course on Product Development.
-- Guided 100+ students teaching concepts on Databases(SQL),Computer Networks,and CloudComputing.
-- Created grading rubric, conducted 20+ office hours, and cleared over 40+ student queries, improving course understanding and reducing student drop-out rate by 5%.
+- Conducted workshops on SQL databases for 135 students 
+- Mentored 100+ students, teaching concepts on Microservices, Cloud computing, and Computer networks
 - Course ID:
-    - TIM 58/CSE 58: Systems Analysis and Design
-    - TIM 50/CSE 50: Business Information Systems
-    - TIM 172P/CSE 172P: Management of Technology Project 
+    - TIM 58/CSE 58: Systems Analysis and Design - Paul Vroomen
+    - TIM 50/CSE 50: Business Information Systems - Paul Vroomen
+    - TIM 172P/CSE 172P: Management of Technology Project - Subhas Desa

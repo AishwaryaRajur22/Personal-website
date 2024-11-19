@@ -1,14 +1,13 @@
 ---
-date: '2017-03-01'
-title: 'Crowd DJ'
-github: 'https://github.com/crowddj/crowddj-react'
+date: '2023-04-01'
+title: 'Distributed hash table - Chord'
+github: 'https://github.com/AishwaryaRajur22/Distributed-hash-table-Chord'
 external: ''
 tech:
-  - React
-  - Firebase
-  - Spotify API
-company: HackBeanpot 2017
-showInProjects: false
+  - Python
+  - Remote Procedure Calls(RPC)
+  - Computer Networks
+company: ''
+showInProjects: True
 ---
-
-Web app that allows people to crowdsource a party's music queue. Allows people to request songs, upvote songs, rate songs, etc. so the DJ can see how the crowd is feeling and queue songs accordingly. Won Best UI/UX Design at Hackbeanpot 2017.
+Implemented Chord DHT functionalities, focusing on accurate finger table building during node joins and ensuring correct key migration to new nodes. Additionally, I developed key lookup and modification operations, including the ‘find,’ ‘insert,’ and ‘remove’ functions.

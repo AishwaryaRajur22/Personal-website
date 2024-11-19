@@ -60,7 +60,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-      I am actively seeking full-time Software Engineer positions set to commence between March and June 2024. My inbox is open for any exciting opportunities. Whether you have inquiries or simply want to reach out, feel free to drop me a message—I'll do my best to get back to you! :) </p>
+      I am actively seeking full-time opportunities in Software Engineering, Cloud Engineering, DevOps, and Site Reliability Engineering roles, and am available to start immediately. Feel free to reach out with any exciting opportunities or inquiries—I’d be happy to connect and respond as soon as possible! :) </p>
 
       <a className="email-link" href={`mailto:${email}`}>
         Say Hello

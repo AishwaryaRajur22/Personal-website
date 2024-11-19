@@ -1,14 +1,14 @@
 ---
-date: '2018-05-01'
-title: 'blistabloc'
+date: '2019-12-01'
+title: 'HTML, CSS and Javascript (Course)'
 github: ''
-external: 'https://blistabloc.com/'
+external: 'https://www.coursera.org/account/accomplishments/certificate/6HWNT58UUKK3'
 tech:
-  - WordPress
-  - Timber
-  - WooCommerce
-company: 'Scout'
-showInProjects: false
+  - HTML
+  - Javascript
+  - CSS
+company: 'Coursera'
+showInProjects: true
 ---
 
-Custom WordPress theme and e-commerce site built with Timber and WooCommerce for blistabloc, a start-up selling the only reactive shoe insert that prevents blisters from forming.
+Learnt the basics of programming, from building web pages, to writing programs with JavaScript, to making web pages interactive.

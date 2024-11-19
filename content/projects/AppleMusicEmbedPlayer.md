@@ -1,15 +1,16 @@
 ---
-date: '2019-12-01'
-title: 'HTML, CSS and Javascript (Course)'
-github: ''
-external: 'https://www.coursera.org/account/accomplishments/certificate/6HWNT58UUKK3'
+date: '2024-05-01'
+title: 'Serverless web application on AWS'
+github: 'https://github.com/AishwaryaRajur22/Serverless-web-application-on-AWS'
+external: ''
 tech:
-  - HTML
-  - Javascript
-  - CSS
-company: 'Coursera'
+  - Lambda
+  - API Gateway
+  - DynamoDB
+  - Cognito
+  - Amplify
+  - CloudWatch
+company: 'AWS'
 showInProjects: true
 ---
-
-Learnt the basics of programming, from building web pages, to writing programs with JavaScript, to making web pages interactive.
-
+Designed and developed a serverless ride-sharing web application using AWS cloud services, implementing backend user management logic and mimicking the core functionalities of a real-world ride-sharing platform.

@@ -1,6 +1,6 @@
 ---
 date: '2022-02-02'
-title: 'Self Driving Car Simulation'
+title: 'Self Driving Car Simulation (Thesis)'
 github: ''
 external: 'http://www.thedesignengineering.com/index.php/DE/article/view/5293'
 tech:

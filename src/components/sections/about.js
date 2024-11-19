@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Docker', 'Flask', 'REST', 'SQL'];
+  const skills = ['AWS', 'RESTful APIs', 'Containers', 'Kafka'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,12 +135,12 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-            Hello! I'm Aishwarya, a tech enthusiast currently pursuing MS in Computer Engineering at UC Santa Cruz. My journey in technology started as a Software Engineer at Accenture, where I led a team, solved critical issues, and explored the realms of DevOps practices. As a Graduate Teaching Assistant, my passion for Python and the intricacies of Computer science and Technology Management comes alive as I guide over 100 students through the wonders of technology.
+            Hello, I’m Aishwarya, a passionate technology enthusiast with an MS degree in Computer Engineering from the University of California, with a GPA of 3.9/4. My career began as a Software Engineer at Accenture, where I was part of the DevOps integration team, solving complex problems, developing automation scripts for file transfer events, and managing change requirements. Currently, I’m working as a Project Manager at the AIEA UCSC lab, blending my management skills with my technical background.
             <p>
 
             </p>
             <p>
-            Beyond the digital confines, you'll often find me chasing sunsets and capturing moments through the lens of my camera. Looking ahead, I'm not just envisioning a career in software engineering; I'm picturing a future where technology intersects with creativity and sustainability. I'm excited to continue this journey of exploration and innovation. Let's connect and create something extraordinary together! 🚀
+            When I’m not coding, you can find me exploring the outdoors, chasing sunsets, and capturing moments through my camera lens. Looking ahead, I see a future where technology and creativity converge to shape sustainable and innovative solutions. Let’s connect and collaborate on exciting projects! 🚀
             </p>
             </p>
 

@@ -60,14 +60,12 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Aishwarya Janardhana Rajur.</h2>;
-  const three = <h3 className="big-heading">I love tech.</h3>;
+  const two = <h2 className="big-heading">Aishwarya Rajur.</h2>;
+  const three = <h3 className="medium-heading">a curious mind,<br></br>driven by tech and growth.</h3>;
   const four = (
-    <>
       <p>
-        Pursuing MS in Computer Engineering at UC, Santa Cruz - California with an anticipated graduation year of 2024 🎓
+        MS in Computer Engineering Graduate 🎓<br></br>University of California, Santa Cruz<br></br>June 2024
       </p>
-    </>
   );
   const five = (
     <a

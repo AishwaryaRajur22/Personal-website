@@ -2,15 +2,15 @@
 date: '1'
 title: 'University of California, Santa Cruz'
 github: ''
-range: 'Sep 2022 - Present'
+range: 'Sep 2022 - June 2024'
 cover: './IMG_3747.png'
-cta: 'https://www.ucsc.edu/'
+cta: 'https://drive.google.com/drive/u/1/folders/1ZI3IeM6XpEnARmEWu1TqAGlQlqanfbcB'
 tech:
-  - DSA
+  - Distributed Sytems
   - Computer Networks
-  - Distributed Systems
-  - DBMS
-  - 
+  - System Design
+  - Data structures and Algorithms
+  - AI
   - 
 ---
-Pursuing Master of Science in Computer Engineering with current GPA 3.9. I have been granted a scholarship of $6,000 per quarter in recognition of my consistent selection as a Teaching Assistant.
+Completed Master of Science in Computer Engineering with GPA 3.9 on 17th of June 2024. I was granted a scholarship of $6,000 per quarter in recognition of my consistent selection as a Teaching Assistant.
